@@ -7,7 +7,6 @@ int potPin = A0;
 void setup()
 {
   servo.attach(servoPin);
-  Serial.begin(9600);
 }
 
 void loop()

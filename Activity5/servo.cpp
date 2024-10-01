@@ -1,4 +1,3 @@
-// C++ code
 #include <Servo.h>
 
 Servo servo;
@@ -7,7 +6,6 @@ int p2 = 9;
 void setup()
 {
   servo.attach(p2);
-  Serial.begin(9600);
 }
 
 void loop()
